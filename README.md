@@ -1,50 +1,59 @@
-# Welcome to your Expo app 👋
+GlowCart – React Native App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A simple yet beautiful e-commerce mobile application built with React Native (Expo).
+It follows a smooth Onboarding → Login → Register → Home → Profile flow, styled to match a modern minimal theme.
 
-## Get started
+🚀 Setup Instructions
+Clone the repository
+git clone https://github.com/your-username/glowcart.git
+cd glowcart
 
-1. Install dependencies
+Install dependencies
+npm install
 
-   ```bash
-   npm install
-   ```
+Run the app
+npx expo start
+Scan the QR code in Expo Go app (Android/iOS)
+Or run in an Android/iOS simulator
 
-2. Start the app
 
-   ```bash
-   npx expo start
-   ```
+Folder Structure Overview
 
-In the output, you'll find options to open the app in a
+src/
+├── api/            # Axios API setup
+├── components/     # Reusable UI components (AppButton etc.)
+├── navigation/     # Stack & Tab navigation
+├── screens/        # All app screens
+└── assets/         # Images, icons, and other static assets
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Time Taken
+Planning & UI Design: ~2 hours
+Coding Screens & Navigation: ~4 hours
+Testing & Debugging: ~1.5 hours
+Total: ~7.5 hours
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
 
-## Get a fresh project
+📌 Assumptions
+Users already have Expo Go or emulator setup for testing.
+Internet connection is available for API requests.
+Using dummy API (https://dummyjson.com) for fetching product details
 
-When you're ready, run:
 
-```bash
-npm run reset-project
-```
+⚠ Known Issues
+No backend authentication yet — login is currently UI-only.
+Social login buttons are non-functional (UI placeholders).
+Product listing & details are static/dummy data.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
 
-## Learn more
+Next Steps / Future Improvements
+Implement real authentication with backend API.
+Connect social login buttons (Google, Apple, Facebook).
 
-To learn more about developing your project with Expo, look at the following resources:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 🎥 Demo Video
+[Watch the full demo here](https://www.loom.com/share/your-looom-link)
 
-## Join the community
 
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+##GlowCart Video of running App
+https://drive.google.com/file/d/12pdHIWlD6ElkyRPd1Z06DUrUNDP9OwUj/view?usp=drivesdk
+Add cart & wishlist functionality.
