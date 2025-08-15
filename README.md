@@ -48,6 +48,8 @@ Product listing & details are static/dummy data.
 Next Steps / Future Improvements
 Implement real authentication with backend API.
 Connect social login buttons (Google, Apple, Facebook).
+Add cart & wishlist functionality.
+
 
 
 ## 🎥 Demo Video
@@ -55,5 +57,5 @@ Connect social login buttons (Google, Apple, Facebook).
 
 
 ##GlowCart Video of running App
-https://drive.google.com/file/d/12pdHIWlD6ElkyRPd1Z06DUrUNDP9OwUj/view?usp=drivesdk
+https://drive.google.com/file/d/12sLHMKA0UWAjumOEDD7Sb4wuG0wKHTbZ/view?usp=drivesdk
 Add cart & wishlist functionality.
