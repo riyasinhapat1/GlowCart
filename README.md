@@ -51,7 +51,7 @@ Connect social login buttons (Google, Apple, Facebook).
 
 
 ## 🎥 Demo Video
-[Watch the full demo here](https://www.loom.com/share/your-looom-link)
+[Watch the full demo here](https://www.loom.com/share/75270a6e4117468fb18aefd94a4fed74?sid=208192d0-8036-43f6-ae07-63ee2eaaf005)
 
 
 ##GlowCart Video of running App
